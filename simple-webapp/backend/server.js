@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     res.setHeader("Content-Type", "text/plain");
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.end(greeting);
-	#res.end(greet(name));
+
 });
 
 const port = 3000;
